@@ -3,6 +3,6 @@ Interfaces ChatGPT api with usefull finctions (and embeded prompts) for text ana
 
 Usage:
 - place your text files in separate directory (such as ./documents)
-- run node app,j --path ./documents
+- run node app.js --path ./documents
 
   *Please watch your quota - don't use too many documents for testing!"
