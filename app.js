@@ -38,7 +38,7 @@ function main() {
             try {
               const data = fs.readFileSync(path.resolve(argvPath, file), 'utf8')
               console.log(data)
-              chatGPTHelper.getInfo(data.slice(0, 1024), 11, 128)
+              chatGPTHelper.getInfo(data/*.slice(0, 1024)*/, 11, 128)
             } catch (err) {
               console.error(err)
             }
